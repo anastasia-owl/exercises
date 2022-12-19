@@ -5,7 +5,7 @@ def brackets(numder: int, numder_left=0, numder_right=0, sepor =''):
             brackets(numder, numder_left + 1, numder_right, sepor + '(')
         if numder_right < numder_left:
             brackets(numder, numder_left, numder_right + 1, sepor + ')')
-    elif:
+    else:
         print(sepor)
 
 def main():
